@@ -1,8 +1,7 @@
 kind: Template
 apiVersion: v1
 metadata:
-  name: dotnet-webapi-dc
-  creationTimestamp: null
+  name: figaro-validation-service-dc
 parameters:
   - name: APP_NAME
     displayName: Name

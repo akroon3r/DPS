@@ -2,15 +2,13 @@
 kind: Template
 apiVersion: v1
 metadata:
-  name: fams3-dotnet-build
+  name: figaro-validation-service-build
   annotations:
-    openshift.io/display-name: "FAMS3 Dotnet Build"
-    description: The FAMS3 Dotnet builder
-    tags: quickstart,dotnet,.net
-    iconClass: icon-dotnet
+    openshift.io/display-name: "Figaro Validation Service Build"
+    description: Figaro Validation Service Builder
+    tags: java
     template.openshift.io/provider-display-name: BCGov
-    template.openshift.io/documentation-url: https://github.com/bcgov/FAMS3/
-
+    template.openshift.io/documentation-url: https://github.com/bcgov/jag-dps/
 parameters:
   - name: APP_NAME
     displayName: Name
